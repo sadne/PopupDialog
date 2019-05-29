@@ -133,6 +133,7 @@ class ViewController: UIViewController {
         let popup = PopupDialog(viewController: ratingVC,
                                 buttonAlignment: .horizontal,
                                 transitionStyle: .bounceDown,
+                                preferredWidth: 370,
                                 tapGestureDismissal: true,
                                 panGestureDismissal: false)
         
